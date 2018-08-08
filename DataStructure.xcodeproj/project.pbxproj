@@ -10,6 +10,11 @@
 		EDEE0B7B211AD7EA00B7424D /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = EDEE0B7A211AD7EA00B7424D /* main.c */; };
 		EDEE0BAE211ADA9E00B7424D /* Stack.c in Sources */ = {isa = PBXBuildFile; fileRef = EDEE0BAD211ADA9E00B7424D /* Stack.c */; };
 		EDEE0BB1211ADAA800B7424D /* Queue.c in Sources */ = {isa = PBXBuildFile; fileRef = EDEE0BB0211ADAA800B7424D /* Queue.c */; };
+		EDEE0BB4211ADBF700B7424D /* String.c in Sources */ = {isa = PBXBuildFile; fileRef = EDEE0BB3211ADBF700B7424D /* String.c */; };
+		EDEE0BB7211ADC0700B7424D /* Tree.c in Sources */ = {isa = PBXBuildFile; fileRef = EDEE0BB6211ADC0700B7424D /* Tree.c */; };
+		EDEE0BBA211ADCA500B7424D /* Graph.c in Sources */ = {isa = PBXBuildFile; fileRef = EDEE0BB9211ADCA500B7424D /* Graph.c */; };
+		EDEE0BBD211ADCB400B7424D /* Search.c in Sources */ = {isa = PBXBuildFile; fileRef = EDEE0BBC211ADCB400B7424D /* Search.c */; };
+		EDEE0BC0211ADCBD00B7424D /* Sort.c in Sources */ = {isa = PBXBuildFile; fileRef = EDEE0BBF211ADCBD00B7424D /* Sort.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -31,6 +36,16 @@
 		EDEE0BAD211ADA9E00B7424D /* Stack.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = Stack.c; sourceTree = "<group>"; };
 		EDEE0BAF211ADAA800B7424D /* Queue.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Queue.h; sourceTree = "<group>"; };
 		EDEE0BB0211ADAA800B7424D /* Queue.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = Queue.c; sourceTree = "<group>"; };
+		EDEE0BB2211ADBF700B7424D /* String.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = String.h; sourceTree = "<group>"; };
+		EDEE0BB3211ADBF700B7424D /* String.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = String.c; sourceTree = "<group>"; };
+		EDEE0BB5211ADC0700B7424D /* Tree.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Tree.h; sourceTree = "<group>"; };
+		EDEE0BB6211ADC0700B7424D /* Tree.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = Tree.c; sourceTree = "<group>"; };
+		EDEE0BB8211ADCA500B7424D /* Graph.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Graph.h; sourceTree = "<group>"; };
+		EDEE0BB9211ADCA500B7424D /* Graph.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = Graph.c; sourceTree = "<group>"; };
+		EDEE0BBB211ADCB400B7424D /* Search.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Search.h; sourceTree = "<group>"; };
+		EDEE0BBC211ADCB400B7424D /* Search.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = Search.c; sourceTree = "<group>"; };
+		EDEE0BBE211ADCBD00B7424D /* Sort.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Sort.h; sourceTree = "<group>"; };
+		EDEE0BBF211ADCBD00B7424D /* Sort.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = Sort.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +96,8 @@
 		EDEE0BA2211ADA4700B7424D /* 树 */ = {
 			isa = PBXGroup;
 			children = (
+				EDEE0BB5211ADC0700B7424D /* Tree.h */,
+				EDEE0BB6211ADC0700B7424D /* Tree.c */,
 			);
 			path = "树";
 			sourceTree = "<group>";
@@ -88,6 +105,8 @@
 		EDEE0BA3211ADA4700B7424D /* 串 */ = {
 			isa = PBXGroup;
 			children = (
+				EDEE0BB2211ADBF700B7424D /* String.h */,
+				EDEE0BB3211ADBF700B7424D /* String.c */,
 			);
 			path = "串";
 			sourceTree = "<group>";
@@ -102,6 +121,8 @@
 		EDEE0BA5211ADA4700B7424D /* 查找 */ = {
 			isa = PBXGroup;
 			children = (
+				EDEE0BBB211ADCB400B7424D /* Search.h */,
+				EDEE0BBC211ADCB400B7424D /* Search.c */,
 			);
 			path = "查找";
 			sourceTree = "<group>";
@@ -116,6 +137,8 @@
 		EDEE0BA7211ADA4700B7424D /* 图 */ = {
 			isa = PBXGroup;
 			children = (
+				EDEE0BB8211ADCA500B7424D /* Graph.h */,
+				EDEE0BB9211ADCA500B7424D /* Graph.c */,
 			);
 			path = "图";
 			sourceTree = "<group>";
@@ -139,6 +162,8 @@
 		EDEE0BAA211ADA4800B7424D /* 排序 */ = {
 			isa = PBXGroup;
 			children = (
+				EDEE0BBE211ADCBD00B7424D /* Sort.h */,
+				EDEE0BBF211ADCBD00B7424D /* Sort.c */,
 			);
 			path = "排序";
 			sourceTree = "<group>";
@@ -208,9 +233,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EDEE0BBA211ADCA500B7424D /* Graph.c in Sources */,
+				EDEE0BB7211ADC0700B7424D /* Tree.c in Sources */,
+				EDEE0BB4211ADBF700B7424D /* String.c in Sources */,
 				EDEE0BB1211ADAA800B7424D /* Queue.c in Sources */,
 				EDEE0BAE211ADA9E00B7424D /* Stack.c in Sources */,
+				EDEE0BBD211ADCB400B7424D /* Search.c in Sources */,
 				EDEE0B7B211AD7EA00B7424D /* main.c in Sources */,
+				EDEE0BC0211ADCBD00B7424D /* Sort.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
