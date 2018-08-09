@@ -15,6 +15,7 @@
 		EDEE0BBA211ADCA500B7424D /* Graph.c in Sources */ = {isa = PBXBuildFile; fileRef = EDEE0BB9211ADCA500B7424D /* Graph.c */; };
 		EDEE0BBD211ADCB400B7424D /* Search.c in Sources */ = {isa = PBXBuildFile; fileRef = EDEE0BBC211ADCB400B7424D /* Search.c */; };
 		EDEE0BC0211ADCBD00B7424D /* Sort.c in Sources */ = {isa = PBXBuildFile; fileRef = EDEE0BBF211ADCBD00B7424D /* Sort.c */; };
+		EDEE0BC3211BF6C500B7424D /* LinkStack.c in Sources */ = {isa = PBXBuildFile; fileRef = EDEE0BC2211BF6C500B7424D /* LinkStack.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -46,6 +47,8 @@
 		EDEE0BBC211ADCB400B7424D /* Search.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = Search.c; sourceTree = "<group>"; };
 		EDEE0BBE211ADCBD00B7424D /* Sort.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Sort.h; sourceTree = "<group>"; };
 		EDEE0BBF211ADCBD00B7424D /* Sort.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = Sort.c; sourceTree = "<group>"; };
+		EDEE0BC1211BF6C500B7424D /* LinkStack.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LinkStack.h; sourceTree = "<group>"; };
+		EDEE0BC2211BF6C500B7424D /* LinkStack.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = LinkStack.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -173,6 +176,8 @@
 			children = (
 				EDEE0BAC211ADA9E00B7424D /* Stack.h */,
 				EDEE0BAD211ADA9E00B7424D /* Stack.c */,
+				EDEE0BC1211BF6C500B7424D /* LinkStack.h */,
+				EDEE0BC2211BF6C500B7424D /* LinkStack.c */,
 			);
 			path = "栈";
 			sourceTree = "<group>";
@@ -241,6 +246,7 @@
 				EDEE0BBD211ADCB400B7424D /* Search.c in Sources */,
 				EDEE0B7B211AD7EA00B7424D /* main.c in Sources */,
 				EDEE0BC0211ADCBD00B7424D /* Sort.c in Sources */,
+				EDEE0BC3211BF6C500B7424D /* LinkStack.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -359,18 +365,24 @@
 		EDEE0B7F211AD7EA00B7424D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "Mac Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = B9842T9339;
+				DEVELOPMENT_TEAM = MG48NLG4CC;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 			};
 			name = Debug;
 		};
 		EDEE0B80211AD7EA00B7424D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "Mac Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = B9842T9339;
+				DEVELOPMENT_TEAM = MG48NLG4CC;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 			};
 			name = Release;
 		};

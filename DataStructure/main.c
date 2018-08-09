@@ -7,9 +7,17 @@
 //
 
 #include <stdio.h>
+#include "Stack.h"
+#include "LinkStack.h"
 
 int main(int argc, const char * argv[]) {
     // insert code here...
     printf("Hello, World!\n");
+    
+    //顺序栈
+    StackTest();
+    //链栈
+    LinckStackTest();
+    
     return 0;
 }
