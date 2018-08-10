@@ -16,6 +16,7 @@
 		EDEE0BBD211ADCB400B7424D /* Search.c in Sources */ = {isa = PBXBuildFile; fileRef = EDEE0BBC211ADCB400B7424D /* Search.c */; };
 		EDEE0BC0211ADCBD00B7424D /* Sort.c in Sources */ = {isa = PBXBuildFile; fileRef = EDEE0BBF211ADCBD00B7424D /* Sort.c */; };
 		EDEE0BC3211BF6C500B7424D /* LinkStack.c in Sources */ = {isa = PBXBuildFile; fileRef = EDEE0BC2211BF6C500B7424D /* LinkStack.c */; };
+		EDEE0BC6211D72FC00B7424D /* NodeQueue.c in Sources */ = {isa = PBXBuildFile; fileRef = EDEE0BC5211D72FB00B7424D /* NodeQueue.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -49,6 +50,8 @@
 		EDEE0BBF211ADCBD00B7424D /* Sort.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = Sort.c; sourceTree = "<group>"; };
 		EDEE0BC1211BF6C500B7424D /* LinkStack.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LinkStack.h; sourceTree = "<group>"; };
 		EDEE0BC2211BF6C500B7424D /* LinkStack.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = LinkStack.c; sourceTree = "<group>"; };
+		EDEE0BC4211D72FB00B7424D /* NodeQueue.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NodeQueue.h; sourceTree = "<group>"; };
+		EDEE0BC5211D72FB00B7424D /* NodeQueue.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = NodeQueue.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -158,6 +161,8 @@
 			children = (
 				EDEE0BAF211ADAA800B7424D /* Queue.h */,
 				EDEE0BB0211ADAA800B7424D /* Queue.c */,
+				EDEE0BC4211D72FB00B7424D /* NodeQueue.h */,
+				EDEE0BC5211D72FB00B7424D /* NodeQueue.c */,
 			);
 			path = "队列";
 			sourceTree = "<group>";
@@ -243,6 +248,7 @@
 				EDEE0BB4211ADBF700B7424D /* String.c in Sources */,
 				EDEE0BB1211ADAA800B7424D /* Queue.c in Sources */,
 				EDEE0BAE211ADA9E00B7424D /* Stack.c in Sources */,
+				EDEE0BC6211D72FC00B7424D /* NodeQueue.c in Sources */,
 				EDEE0BBD211ADCB400B7424D /* Search.c in Sources */,
 				EDEE0B7B211AD7EA00B7424D /* main.c in Sources */,
 				EDEE0BC0211ADCBD00B7424D /* Sort.c in Sources */,
