@@ -11,6 +11,7 @@
 #include "LinkStack.h"
 #include "Queue.h"
 #include "NodeQueue.h"
+#include "String.h"
 
 int main(int argc, const char * argv[]) {
     // insert code here...
@@ -25,6 +26,9 @@ int main(int argc, const char * argv[]) {
     QueueTest();
     //链式队列
     NodeQueueTest();
+    
+    //字符串测试
+    StringTest();
     
     return 0;
 }
